@@ -10,6 +10,7 @@
     --grey-900: #0d1919;
     --grey-800: #121b22;
     --grey-700: #1f2c34;
+    --grey-650: #919597;
     --grey-600: #dfdfe1;
     --grey-300: #fefff6;
     --grey-200: #dcf8c6;
@@ -177,6 +178,44 @@ display: none;
     color: gray;
 }
 
+/* Estilos Messages */
+.chat {
+    display: flex;
+    flex-direction: column;
+}
+
+.messages {
+        flex: 1;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+}
+
+.message {
+    background-color: var(--grey-300);
+    padding: 10px;
+    width: 60%;
+    border-radius: 0px 15px 15px 15px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.35);
+}
+
+.me {
+    align-self: end;
+    background-color: var(--green-100);
+    border-radius:  15px 15px 0px 15px;
+}
+.message .time {
+    color: var(--grey-700);
+    font-size: 14px;
+    margin-top: 10px;
+    text-align: end;
+ }
+
+/* Estilos Footer */
+
+
+
 
 footer {
     background-color: #dedede
@@ -220,7 +259,7 @@ footer form textarea {
 }
 
 footer form textarea:focus {
-    outline: 1px solid var(--grey-700);
+    outline: 1px solid var(--grey-650);
 }
 
 
