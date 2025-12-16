@@ -10,12 +10,13 @@
     --grey-900: #0d1919;
     --grey-800: #121b22;
     --grey-700: #1f2c34;
+    --grey-600: #dfdfe1;
     --grey-300: #fefff6;
     --grey-200: #dcf8c6;
     --green-400: #138b80;
     --green-300: #2dca7a;
     --green-100: #dcf8c6;
-    
+
     --font-primary:  "Roboto", sans-serif;
 }
 
@@ -32,6 +33,8 @@ body {
     grid-template-columns: 300px 1fr;
     height: 100vh;
     overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0px 12px 40px rgba(0,0,0,0.25);
 }
 
 img{
@@ -72,7 +75,7 @@ aside header {
     background-color: var(--grey-700);
     width: 35px;
     height: 35px;
-    
+
 
 }
 .title-aside {
@@ -139,4 +142,75 @@ aside header {
 .user-chat img {
     width: 60px;
     border-radius: 50%;
+}
+
+/* Panel de mensajes del chat */
+
+aside {
+display: none;
+
+}
+
+.app {
+    grid-template-columns: 1fr;
+}
+
+.chat-header {
+    background-color: var(--grey-300); 
+
+    border-bottom: 1px solid var(--grey-600);
+    display: flex;
+    padding: 10px; 
+    align-items: center;
+    gap: 10px;
+
+}
+
+.chat-header img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.chat-header p {
+    font-size: ;
+    color: gray;
+}
+
+
+footer {
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+
+}
+
+footer button {
+    width: 30px;
+    height: 30px;
+    background-color: transparent;
+    border: none;
+    padding: 3px;
+
+}
+
+footer svg {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+}
+
+footer form {
+    flex: 1;
+}
+
+footer form {
+    display: flex;
+    align-items: center;
+}
+footer form textarea {
+    width: 100%;
+    border-radius: 5px;
 }
