@@ -147,15 +147,6 @@ aside header {
 
 /* Panel de mensajes del chat */
 
-aside {
-display: none;
-
-}
-
-.app {
-    grid-template-columns: 1fr;
-}
-
 .chat-header {
     background-color: var(--grey-300);
 
@@ -304,3 +295,17 @@ footer .attach:hover {
 .btn-env svg:active {
     animation: giro 0.7s linear  ;
 }   
+
+/* Responsive Design */
+ @media (max-width: 880px) {
+
+    
+aside {
+display: none;
+
+}
+
+.app {
+    grid-template-columns: 1fr;
+}
+ }
