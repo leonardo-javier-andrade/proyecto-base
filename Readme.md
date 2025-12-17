@@ -1,7 +1,14 @@
 # Proyecto 
 ## Maquetacion de proyecto Web
 
-Se utilizo lo aprendido de HTML y CSS para que el proyecto se viera bastante bien. Se puso mucho foco en los pequeños detalles:
+Este proyecto consiste en la maquetacion de la estructura visual de una imitacion de "Whatsapp Web"
+
+Se utilizo lo aprendido de HTML y CSS para que el proyecto se viera bastante bien.
+
+## Estructura y Estilos
+
+
+ Si bien el proyecto es basicamente una copia de un modelo, tambien se le puso mucho foco en los pequeños detalles:
 
 Estructura Completa: Tiene todas las partes que ves en WhatsApp: la lista de chats a la izquierda, la ventana de conversación y la barra para escribir mensajes.
 
@@ -26,3 +33,10 @@ Fuente utilizada: "http://yesicon.com"
 **Animación en Botón "Enviar":** Pequeña animación o cambio de estilo al interactuar con el botón de envío de mensajes.
 
 **Animación en Botón "Adjuntar":** Efecto visual sutil al hacer hover o clic en el botón para adjuntar archivos.
+
+### Trabajo con GIT
+
+El repositorio contiene commits frecuentes y descriptivos, lo que permite documentar el avance de la maquetación paso a paso y facilita la revisión de las etapas de construcción del proyecto.
+
+**Link:**
+https://github.com/leonardo-javier-andrade/proyecto-base
